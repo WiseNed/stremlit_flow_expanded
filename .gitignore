@@ -1,0 +1,5 @@
+**/node_modules/
+**/.vite/
+*.egg-info/
+__pycache__/
+*.py[cod]
