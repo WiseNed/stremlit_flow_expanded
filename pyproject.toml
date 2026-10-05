@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "streamlit-flow-component"
+name = "streamlit-flow-expanded"
 version = "0.1.0"
 description = "Streamlit flow canvas with styled nodes and a data-driven context menu."
 readme = "README.md"
@@ -12,7 +12,7 @@ dependencies = ["streamlit>=1.35"]
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["streamlit_flow_component*"]
+include = ["streamlit_flow_expanded*"]
 
 [tool.setuptools.package-data]
-streamlit_flow_component = ["frontend/build/**/*"]
+streamlit_flow_expanded = ["frontend/build/**/*"]

@@ -1,1 +1,1 @@
-recursive-include streamlit_flow_component/frontend/build *
+recursive-include streamlit_flow_expanded/frontend/build *

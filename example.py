@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-from streamlit_flow_component import encode_flow_rows, streamlit_flow
+from streamlit_flow_expanded import encode_flow_rows, streamlit_flow
 
 st.set_page_config(page_title="Flow canvas", layout="wide")
 st.title("Flow canvas")

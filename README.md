@@ -1,4 +1,4 @@
-# streamlit_flow_component
+# streamlit_flow_expanded
 
 A self-contained Streamlit component: a left-to-right flow canvas, nodes drawn from a packed style string, and a context menu described as data.
 
@@ -7,7 +7,7 @@ This folder does not depend on a host application. Install it, or copy it out wh
 ## Use
 
 ```python
-from streamlit_flow_component import encode_flow_rows, streamlit_flow
+from streamlit_flow_expanded import encode_flow_rows, streamlit_flow
 
 content = encode_flow_rows([
     {"text": "Parent", "style": "#eceff1|#263238|", "bold": True},
@@ -104,8 +104,8 @@ Sibling order and the automatic layout follow the order of `nodes` and `edges`. 
 
 ## Develop
 
-Production loads `streamlit_flow_component/frontend/build`. For the dev server:
+Production loads `streamlit_flow_expanded/frontend/build`. For the dev server:
 
-1. In `streamlit_flow_component/__init__.py`, set `_RELEASE = False`.
-2. `npm start` in `streamlit_flow_component/frontend/` (port 3001).
+1. In `streamlit_flow_expanded/__init__.py`, set `_RELEASE = False`.
+2. `npm start` in `streamlit_flow_expanded/frontend/` (port 3001).
 3. Set `_RELEASE = True` and `npm run build` before normal use.

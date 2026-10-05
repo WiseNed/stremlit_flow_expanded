@@ -16,7 +16,7 @@ _BUILD_DIR = Path(__file__).resolve().parent / "frontend" / "build"
 if _RELEASE:
     if not _BUILD_DIR.is_dir():
         raise FileNotFoundError(
-            "streamlit_flow_component frontend build is missing at "
+            "streamlit_flow_expanded frontend build is missing at "
             f"{_BUILD_DIR}. Run npm run build in the frontend directory."
         )
     _component = components.declare_component("streamlit_flow", path=str(_BUILD_DIR))
